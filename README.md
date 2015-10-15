@@ -1,9 +1,10 @@
 # How to proceed with partitive "some" project
 
-## Paper -- ideas for framing
+## Paper -- framing
 
-1. People have talked about syntactic alternations as a) meaning-equivalent variants with choice entirely driven by processing pressures or b) different variants being associated with categorically different meanings --> we propose a tradeoff between the two: Gradient Alternation Hypothesis
+People have talked about syntactic alternations as a) meaning-equivalent variants with choice entirely driven by processing pressures or b) different variants being associated with categorically different meanings --> we propose a tradeoff between the two: Gradient Alternation Hypothesis. (But probably start out more generally, ie point to the many-to-many mapping problem of forms to meanings and people's presumed desire to both maximize communicative success -- minimizing distance between their own and their interlocutor's representation of the world through language --and minimize effort).
 
+Mark Myslin and Roger currently have their meaning-processing-pressure-tradeoff paper under review (I think), and they frame it all as an explaining away effect. I think we'll take a slightly different (broader, I think) take but should point to those results. In some ways, they're doing the opposite of what we're doing: given two forms that either do or don't violate processing pressures, how big are the associated meaning differences? What we're doing is saying: given forms that are independently rated as having more or less "extreme" meanings, how big is the effect of production pressures? But these approaches are obviously compatible and stem from the same general idea.
 
 
 ## Pre-writing work
