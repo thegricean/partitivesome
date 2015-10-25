@@ -1,8 +1,8 @@
 1. create preliminary database on slate
 
-ssh slate
+``ssh slate
 cd projects/some/all/
-run -c swbdext -e -o
+run -c swbdext -e -o``
 
 2. download and preprocess, including some hand-annotation in excel to mark cases where the head or partitive info was wrongly assigned, or to exclude cases that aren't interesting for our purpose, including  cases like "i ate all day long" or "i don't care all that much"
 
