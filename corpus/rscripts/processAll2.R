@@ -73,3 +73,13 @@ centered = cbind(rf,myCenter(rf[,c("Information_CorrectedHead_3gram", "logHeadFr
 m = glmer(Partitive~cInformation_CorrectedHead_3gram  + cInformation_Pre_3gram + (1|Speaker_ID),data=centered,family="binomial")
 summary(m)
 contrasts(centered$Partitive)
+
+## DO ANALYSIS ON SIMPLE "ALL" VS FULL PARTITIVE
+# this very preliminary model suggests: marginally more full partitive uses with increasing surprisal of "all" given the previous word; but marginally less partitive use with increasing surprisal of "all" given the NP head. weird! 
+sf = droplevels(d[d$Partitive != "the",])
+nrow(sf)
+table(sf$Partitive)
+centered = cbind(sf,myCenter(sf[,c("Information_CorrectedHead_3gram", "logHeadFreq","Information_Pre_3gram")]))
+m = glmer(Partitive~cInformation_CorrectedHead_3gram  + cInformation_Pre_3gram + (1|Speaker_ID),data=centered,family="binomial")
+summary(m)
+contrasts(centered$Partitive)
